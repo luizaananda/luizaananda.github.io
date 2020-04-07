@@ -1,0 +1,10 @@
+@import './config/colors.css';
+@import './reset.css';
+@import './components/logo.css';
+@import './components/btn.css';
+@import './components/card.css';
+@import './containers/header.css';
+@import './containers/presentation.css';
+@import './containers/skills.css';
+@import './containers/comments.css';
+@import './containers/footer.css';

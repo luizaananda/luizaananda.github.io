@@ -1,0 +1,51 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 400px;
+    background-color: #F5F5F5;
+    width: 1100px;
+    height: 600px;
+    border-radius: 25px;
+    position: absolute;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.linha-vertical {
+    height: 500px;
+    border-right: 2px solid;
+    color: #c6c6c6;
+    margin-top: 40px;
+}
+
+.card .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    flex: 1;
+}
+
+.card .category>img {
+    height: 70px;
+    width: 70px;
+    margin-top: 30px;
+}
+
+.card .category>h2 {
+    color: #4F4F4F;
+    font-family: Ubuntu;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 25px;
+}
+
+.card .category>h3 {
+    color: #333;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 28pt;
+}

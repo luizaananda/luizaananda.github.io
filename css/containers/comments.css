@@ -1,0 +1,65 @@
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.comments>h2 {
+    font-family: Roboto;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.comments .bg-comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: var(--color-violet);
+    width: 100%;
+    height: 200px;
+}
+
+.comments .bg-comments>h1 {
+    color: var(--color-mechanical-orange);
+    font-size: 40px;
+    font-family: Ubuntu;
+}
+
+.comments .bg-comments>h3 {
+    font-size: 30px;
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+.comments>#slider>.comment {
+    margin-top: 50px;
+    display: none;
+    height: 450px;
+}
+
+.comments>#slider>.comment.visible {
+    display: block;
+}
+
+.comments .comment>h3 {
+    font-family: Roboto;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.comments .comment>h4 {
+    font-family: Roboto;
+    font-weight: 300;
+    margin-top: 6px;
+    font-size: 18px;
+}
+
+.comments .comment>h5 {
+    font-family: Ropa Sans;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 600px;
+    font-size: 20px;
+}

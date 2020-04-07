@@ -1,0 +1,29 @@
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 317px 0px 317px;
+    padding: 40px;
+}
+
+.presentation h1 {
+    font-family: Ubuntu;
+    font-size: 40px;
+    text-align: center;
+}
+
+.presentation h3 {
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 23px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.presentation img {
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+}

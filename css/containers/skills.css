@@ -1,0 +1,35 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    height: 1300px;
+}
+
+.skills .bg-skills {
+    background-color: var(--color-violet);
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills .bg-skills>h1 {
+    font-family: Ubuntu;
+    color: var(--color-mechanical-orange);
+    align-items: center;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.skills .bg-skills>h3 {
+    font-family: Roboto;
+    color: #fff;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    width: 700px;
+    margin-top: 30px;
+}
