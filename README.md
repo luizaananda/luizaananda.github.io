@@ -1,3 +1,3 @@
-# igorclaudino.github.io
+# luizaananda.github.io
 
-Personal site: https://igorclaudino.github.io
+Personal site: https://luizaananda.github.io

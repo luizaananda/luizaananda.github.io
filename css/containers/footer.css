@@ -33,3 +33,27 @@
     font-size: 14px;
     margin-bottom: 50px;
 }
+
+.footer .icons .tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.footer .icons .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 0;
+    top: 100%;
+    left: 75%;
+    margin-left: -60px;
+}
+
+.footer .icons .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
