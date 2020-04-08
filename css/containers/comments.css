@@ -35,7 +35,7 @@
 .comments>#slider>.comment {
     margin-top: 50px;
     display: none;
-    height: 450px;
+    height: 380px;
 }
 
 .comments>#slider>.comment.visible {
@@ -62,4 +62,8 @@
     margin-top: 20px;
     width: 600px;
     font-size: 20px;
+}
+
+.comments .dots {
+    margin-bottom: 140px;
 }

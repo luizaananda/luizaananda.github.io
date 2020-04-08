@@ -1,0 +1,16 @@
+.dot {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-color: rgba(187, 187, 187, 0);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--color-violet);
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.dot.selected {
+    background-color: var(--color-violet);
+}

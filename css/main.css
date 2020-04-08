@@ -3,6 +3,7 @@
 @import './components/logo.css';
 @import './components/btn.css';
 @import './components/card.css';
+@import './components/dot.css';
 @import './containers/header.css';
 @import './containers/presentation.css';
 @import './containers/skills.css';
