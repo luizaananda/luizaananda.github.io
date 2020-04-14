@@ -67,3 +67,16 @@
 .comments .dots {
     margin-bottom: 140px;
 }
+
+@media(max-width:680px) {
+    .comments .comment>h5 {
+        width: 90%;
+        padding: 0;
+        text-align: center;
+    }
+    .comments>#slider>.comment.visible {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

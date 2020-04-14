@@ -10,6 +10,7 @@
     font-family: Ubuntu;
     font-size: 40px;
     text-align: center;
+    padding: 0 40px;
 }
 
 .presentation h3 {
@@ -26,4 +27,23 @@
     height: 200px;
     width: 200px;
     margin-top: 40px;
+}
+
+@media(max-width:1042px) {
+    .presentation {
+        margin: 0 100px;
+    }
+}
+
+@media(max-width:680px) {
+    .presentation {
+        margin: 0 40px;
+        padding: 15px;
+    }
+    .presentation h1 {
+        font-size: 20px;
+    }
+    .presentation h3 {
+        font-size: 14px;
+    }
 }

@@ -14,3 +14,9 @@
 .dot.selected {
     background-color: var(--color-violet);
 }
+
+@media(max-width:680px) {
+    .dot {
+        margin-top: 80px;
+    }
+}
