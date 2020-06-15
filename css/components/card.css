@@ -56,7 +56,16 @@
         height: 100%;
         margin: 10px;
         width: 80%;
-        margin-top: 200px;
+        margin-top: 100px;
+    }
+    .linha-vertical {
+        height: 500px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .card .category {
+        margin-top: 20px;
+        margin-bottom: 70px;
     }
 }
 
@@ -69,6 +78,7 @@
         display: none;
     }
     .card .category {
+        margin-top: 20px;
         margin-bottom: 70px;
     }
 }
