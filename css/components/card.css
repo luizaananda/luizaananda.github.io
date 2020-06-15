@@ -3,16 +3,16 @@
     justify-content: center;
     align-items: flex-start;
     margin-top: 400px;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     width: 1100px;
-    height: 600px;
+    height: 650px;
     border-radius: 25px;
     position: absolute;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
 .linha-vertical {
-    height: 500px;
+    height: 550px;
     border-right: 2px solid;
     color: #c6c6c6;
     margin-top: 40px;
@@ -33,7 +33,7 @@
 }
 
 .card .category>h2 {
-    color: #4F4F4F;
+    color: #4f4f4f;
     font-family: Ubuntu;
     font-weight: bold;
     text-align: center;
@@ -50,7 +50,7 @@
     line-height: 28pt;
 }
 
-@media(max-width:1000px) {
+@media (max-width: 1000px) {
     .card {
         position: static;
         height: 100%;
@@ -60,7 +60,7 @@
     }
 }
 
-@media(max-width:860px) {
+@media (max-width: 860px) {
     .card {
         flex-direction: column;
         align-items: center;

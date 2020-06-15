@@ -35,12 +35,12 @@
     padding: 0 350px;
 }
 
-@media(max-width:860px) {
+@media (max-width: 1000px) {
     .skills {
         height: 100%;
     }
     .skills .bg-skills>h3 {
-        width: 90%;
-        padding: 0;
+        width: 100%;
+        padding: 0 150px;
     }
 }
